@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "password": "bret123",
+      "confirm_password": "bret123",
+      "avatar": "https://mdbcdn.b-cdn.net/img/new/avatars/2.webp",
+      "id": 1
+    },
+    {
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv",
+      "password": "ant123",
+      "confirm_password": "ant123",
+      "avatar": "https://mdbcdn.b-cdn.net/img/new/avatars/2.webp",
+      "id": 2
+    },
+    {
+      "name": "Clementine Bauch",
+      "username": "samantha",
+      "email": "Nathan@yesenia.net",
+      "password": "sam123",
+      "confirm_password": "sam123",
+      "avatar": "https://cdn.pixabay.com/photo/2016/02/11/16/59/dog-1194083_640.jpg",
+      "id": 3
+    }
+  ]
+}
