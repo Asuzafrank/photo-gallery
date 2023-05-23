@@ -3,6 +3,8 @@ import HomeView from "../views/HomeView.vue";
 import LoginView from "../views/LoginView.vue";
 import SignupView from "../views/SignupView.vue";
 import ProfileUser from "../views/ProfileUser.vue";
+import PhotoView from "../views/PhotoView.vue";
+import AlbumView from "../views/AlbumView.vue";
 import UpdateProfile from "../views/UpdateProfile.vue";
 
 const routes = [
@@ -30,6 +32,16 @@ const routes = [
     path: "/update",
     name: "update",
     component: UpdateProfile,
+  },
+  {
+    path: "/album/:albumId",
+    name: "photos",
+    component: PhotoView,
+  },
+  {
+    path: "/album",
+    name: "album",
+    component: AlbumView,
   },
 ];
 

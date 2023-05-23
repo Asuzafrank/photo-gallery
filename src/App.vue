@@ -5,6 +5,7 @@
 <style>
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 #app {
+  background-color: #f5f6f7;
 }
 .info {
   color: white;

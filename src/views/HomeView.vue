@@ -48,7 +48,7 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-9 mt-3 overflow-auto">
+    <div class="col-lg-9 overflow-auto">
       <div class="d-flex flex-wrap gap-5">
         <div v-for="user in users" :key="user.id" class="card--">
           <div class="card" style="width: 300px">
@@ -86,6 +86,7 @@ export default {
   components: { TopHeader },
   async mounted() {
     this.userProfile = JSON.parse(localStorage.getItem("user.info"));
+
     let result = await axios.get("http://localhost:3000/users");
     this.users = result.data;
   },
@@ -138,4 +139,9 @@ button {
 .card-user {
   width: 200px;
 }
+/* .col-lg-9 {
+  background-image: url(https://cdn.pixabay.com/photo/2017/05/31/09/09/woman-2359562_640.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 </style>
