@@ -4,7 +4,11 @@ import LoginView from "../views/LoginView.vue";
 import SignupView from "../views/SignupView.vue";
 import ProfileUser from "../views/ProfileUser.vue";
 import PhotoView from "../views/PhotoView.vue";
+import AllPhotos from "../views/AllPhotos.vue";
 import AlbumView from "../views/AlbumView.vue";
+import PostAlbum from "../views/PostAlbum.vue";
+import PostPhoto from "../views/PostPhoto.vue";
+import PostDet from "../views/PostDet.vue";
 import UpdateProfile from "../views/UpdateProfile.vue";
 
 const routes = [
@@ -42,6 +46,26 @@ const routes = [
     path: "/album",
     name: "album",
     component: AlbumView,
+  },
+  {
+    path: "/photos",
+    name: "all_photos",
+    component: AllPhotos,
+  },
+  {
+    path: "/post",
+    name: "post_album",
+    component: PostAlbum,
+  },
+  {
+    path: "/post-photo",
+    name: "post_photo",
+    component: PostPhoto,
+  },
+  {
+    path: "/det",
+    name: "det",
+    component: PostDet,
   },
 ];
 

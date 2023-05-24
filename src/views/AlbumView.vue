@@ -4,9 +4,12 @@
     <div class="album-title d-flex justify-content-center flex-wrap gap-3">
       <div class="bk" v-for="album in albums" :key="album.id">
         <div class="s-album">
-          <router-link :to="'/album/' + album.id">{{
-            album.title
-          }}</router-link>
+          <router-link
+            :to="'/album/' + album.id"
+            class="info"
+            style="font-size: 20px; text-decoration: none; margin-left: 10px"
+            >{{ album.title }}</router-link
+          >
           <i class="fa-solid fa-trash"></i>
         </div>
       </div>

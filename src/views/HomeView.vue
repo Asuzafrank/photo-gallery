@@ -12,7 +12,7 @@
             :src="userProfile.avatar"
             class="rounded-circle img-fluid custom-rounded-image mt-3"
             alt="profile-picture"
-            style="radius: 10px"
+            style="radius: 10px; object-fit: cover"
           />
           <div class="card-body">
             <h2 class="card-title text-center">{{ userProfile.name }}</h2>

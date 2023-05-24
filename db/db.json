@@ -29,11 +29,11 @@
     },
     {
       "name": "Patricia Lebsack",
-      "username": "Karianne",
+      "username": "karianne",
       "email": "Julianne.OConner@kory.org",
       "password": "kar123",
       "confirm_password": "kar123",
-      "avatar": "https://mdbcdn.b-cdn.net/img/new/avatars/2.webp",
+      "avatar": "https://images.pexels.com/photos/4413762/pexels-photo-4413762.jpeg?auto=compress&cs=tinysrgb&w=600",
       "id": 4
     }
   ],
@@ -42,43 +42,61 @@
       "albumId": 1,
       "id": 1,
       "title": "accusamus beatae ad facilis cum similique qui sunt",
-      "url": "https://images.pexels.com/photos/4825701/pexels-photo-4825701.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+      "url": "https://images.pexels.com/photos/4825701/pexels-photo-4825701.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 1,
       "id": 2,
       "title": "reprehenderit est deserunt velit ipsam",
-      "url": "https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "thumbnailUrl": "https://via.placeholder.com/150/771796"
+      "url": "https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 1,
       "id": 3,
       "title": "officia porro iure quia iusto qui ipsa ut modi",
-      "url": "https://images.pexels.com/photos/4353813/pexels-photo-4353813.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "thumbnailUrl": "https://via.placeholder.com/150/24f355"
+      "url": "https://images.pexels.com/photos/4353813/pexels-photo-4353813.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 3,
       "id": 1,
       "title": "accusamus beatae ad facilis cum similique qui sunt",
-      "url": "https://images.pexels.com/photos/4945061/pexels-photo-4945061.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+      "url": "https://images.pexels.com/photos/4945061/pexels-photo-4945061.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 2,
       "id": 1,
       "title": "accusamus beatae ad facilis cum similique qui sunt",
-      "url": "https://images.pexels.com/photos/3889742/pexels-photo-3889742.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+      "url": "https://images.pexels.com/photos/3889742/pexels-photo-3889742.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
       "albumId": 1,
       "id": 1,
       "title": "accusamus beatae ad facilis cum similique qui sunt",
-      "url": "https://images.pexels.com/photos/4356144/pexels-photo-4356144.jpeg?auto=compress&cs=tinysrgb&w=600",
-      "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+      "url": "https://images.pexels.com/photos/4356144/pexels-photo-4356144.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "title": "qui autem adipisci veritatis iure necessitatibus et ab voluptatem",
+      "albumId": 5,
+      "url": "https://images.pexels.com/photos/1252500/pexels-photo-1252500.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 4
+    },
+    {
+      "title": "vero est optio expedita quis ut molestiae",
+      "albumId": 31,
+      "url": "https://images.pexels.com/photos/2079228/pexels-photo-2079228.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 5
+    },
+    {
+      "title": "nature",
+      "albumId": 31,
+      "url": "https://images.pexels.com/photos/2074109/pexels-photo-2074109.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 6
+    },
+    {
+      "title": "aeroplane",
+      "albumId": 31,
+      "url": "https://images.pexels.com/photos/2405101/pexels-photo-2405101.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 7
     }
   ],
   "albums": [
@@ -231,6 +249,11 @@
       "userId": 3,
       "id": 30,
       "title": "tempora assumenda et similique odit distinctio error"
+    },
+    {
+      "title": "frank's galleria",
+      "userId": 4,
+      "id": 31
     }
   ]
 }
