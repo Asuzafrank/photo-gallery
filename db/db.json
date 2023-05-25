@@ -35,6 +35,15 @@
       "confirm_password": "kar123",
       "avatar": "https://images.pexels.com/photos/4413762/pexels-photo-4413762.jpeg?auto=compress&cs=tinysrgb&w=600",
       "id": 4
+    },
+    {
+      "name": "evalyne vwamula",
+      "username": "chadebera",
+      "email": "eva@gmail.com",
+      "password": "eva123",
+      "confirm_password": "eva123",
+      "avatar": "https://mdbcdn.b-cdn.net/img/new/avatars/2.webp",
+      "id": 5
     }
   ],
   "photo": [
@@ -114,11 +123,6 @@
       "userId": 1,
       "id": 3,
       "title": "omnis laborum odio"
-    },
-    {
-      "userId": 1,
-      "id": 4,
-      "title": "non esse culpa molestiae omnis sed optio"
     },
     {
       "userId": 1,

@@ -10,7 +10,7 @@
             style="font-size: 20px; text-decoration: none; margin-left: 10px"
             >{{ album.title }}</router-link
           >
-          <i class="fa-solid fa-trash"></i>
+          <i @click="deleteAlbum(album)" class="fa-solid fa-trash"></i>
         </div>
       </div>
     </div>
@@ -29,9 +29,31 @@ export default {
       albums: [],
     };
   },
+
   async mounted() {
     let res = await axios.get("http://localhost:3000/albums");
     this.albums = res.data;
+  },
+  methods: {
+    getUserId() {
+      const userId = JSON.parse(localStorage.getItem("user.info"));
+      return userId.id;
+    },
+    async deleteAlbum(album) {
+      const loggedInUserId = this.getUserId(); // Assuming you have the logged-in user's ID stored in localStorage
+
+      if (album.userId === loggedInUserId) {
+        try {
+          await axios.delete(`http://localhost:3000/albums/${album.id}`);
+          alert("Album  deleted successfully.");
+          this.albums = this.albums.filter((a) => a.id !== album.id);
+        } catch (error) {
+          console.error(`Error deleting album with ID ${album.id}:`, error);
+        }
+      } else {
+        alert("You are not authorized to delete this album.");
+      }
+    },
   },
 };
 </script>

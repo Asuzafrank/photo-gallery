@@ -33,15 +33,28 @@ export default {
   methods: {
     getUserId() {
       const userInfo = JSON.parse(localStorage.getItem("user.info"));
-      return userInfo.id;
+      return userInfo ? userInfo.id : null;
     },
     async post_album() {
-      const uid = this.getUserId();
-      let result = await axios.post(" http://localhost:3000/albums", {
-        title: this.album.title,
-        userId: uid,
-      });
-      console.log(result);
+      const userId = this.getUserId();
+
+      if (userId) {
+        try {
+          const result = await axios.post("http://localhost:3000/albums", {
+            title: this.album.title,
+            userId: userId,
+          });
+
+          console.log(result);
+
+          // Clear the album title input
+        } catch (error) {
+          console.error(error);
+        }
+      } else {
+        alert("Please log in to make a post");
+        this.$router.push({ name: "login" });
+      }
     },
   },
 };
